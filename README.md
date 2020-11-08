@@ -1,1 +1,1 @@
-Koder, exemple och länkar kommer finnas här 
+Koder, exempel och länkar kommer finnas här 
