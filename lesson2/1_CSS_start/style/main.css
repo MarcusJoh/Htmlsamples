@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+p {
+	color: #c55252;
+	font-size: 20px;
+	/* background-color: black; */
+	/* font-size: 1.25em; */
+	/* font-size: 50%; */
+	font-weight: bold;
+}
+/* style for h1 */
+
+h1 {
+	color: blue;
+	/* cursor: copy; */
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    display: inline-flex;
+}
+nav.underNav{
+	background-color: #000000;
+}
+
+nav a:hover {
+    background-color: bisque;
+	color:red;
+}
+
+
+img.dog {
+	margin: 50px;
+	padding: 50px;
+	border-style: dotted;
+}
+section {
+	margin-bottom: 100px;
+}
+section p {
+	font-weight: 500;
+	color: aqua;
+	/* width: 40px; */
+}
+section.blackBackgrund {
+	background-color: #000000;
+}
+.blackBackgrund {
+	background-color: #FFF;
+}
+p.blackBackgrund {
+	background-color: red;
+}
+

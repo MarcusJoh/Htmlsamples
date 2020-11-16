@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.backgroundImage {
+	 background-image: url("img/menu_bg.jpg");
+	background-size: 100%; 
+	
+	
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #3434f7;
+}
+
+
+nav li {
+    padding: 10px;
+    background-color: #3434f7;
+}
+article {
+    margin-top: 200px;
+    background-color: #FFF;
+}
+
+section {
+    margin-top: 200px;
+	 background-color: #FFF;
+}
+
+
+footer {
+    margin-top: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #6377e7;
+}
+footer ul {
+    display: inline-block;
+    list-style: none;
+    margin-left: 20%;
+}
