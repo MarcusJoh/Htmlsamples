@@ -1,6 +1,5 @@
 ### Att läsa: [https://ahrefs.com/blog/seo-meta-tags/](https://ahrefs.com/blog/seo-meta-tags/)
 
-### Dela till studenter:
 
 ### SEO Search Engine Optimization
 https://medium.com/startup-grind/seo-is-not-hard-a-step-by-step-seo-tutorial-for-beginners-that-will-get-you-ranked-every-single-1b903b3ab6bb
@@ -28,10 +27,13 @@ Mallar
 
 Fonts
 - [https://fonts.google.com/](https://fonts.google.com/)
+
 Ikoner
 - https://fontawesome.com/
+
 Städa up
 - [https://www.10bestdesign.com/dirtymarkup/](https://www.10bestdesign.com/dirtymarkup/)
+
 Testing
 - [https://usabilityhub.com/examples](https://usabilityhub.com/examples)
 
