@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: example.html
+Disallow: undersida.html
+
+
+Sitemap: url/sitemap.xml

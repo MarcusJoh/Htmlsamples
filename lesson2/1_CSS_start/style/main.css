@@ -40,6 +40,14 @@ img.dog {
 	padding: 50px;
 	border-style: dotted;
 }
+
+
+img.roundImg {
+    width: 150px;
+    display: inline;
+}
+
+
 section {
 	margin-bottom: 100px;
 }
