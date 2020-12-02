@@ -111,7 +111,7 @@ function callInfinite(){
 
 function callBeyond (){
 	
-	console.log("to infinity");
+	console.log(" and beyond");
 	
 	callInfinite();
 }
