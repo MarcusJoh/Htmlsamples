@@ -72,7 +72,8 @@ for (let i = 1; i < 5; i++) {
 
 function timeToloop() {
     for (let i = 1; i < 5; i++) {
-        document.write("<h" + i + ">Heading</h" + i + ">");
+		// here we have a need for both ' and "
+        document.write('<img src="img/dog.jpg" alt="dog" title="Good boy" >');
     }
 
 
