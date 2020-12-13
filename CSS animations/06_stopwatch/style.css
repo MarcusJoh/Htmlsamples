@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    background: #eee;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 20rem;
+    height: 20rem;
+    background: white;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999rem;
+    border: .6rem solid rgb(211, 211, 211);
+}
+
+aside.ms {
+    position: absolute;
+    transform-origin: bottom center;
+    width: 2px;
+    height: 8rem;
+    background: red;
+    animation: spin 1s infinite linear;
+}
+
+aside.s {
+    position: absolute;
+    transform-origin: bottom center;
+    width: 4px;
+    height: 8rem;
+    background: #888;
+    animation: spin 60s infinite linear;
+}
+
+.dot {
+    width: .5rem;
+    height: .5rem;
+    background: #888;
+    z-index: 99;
+    border-radius: 99rem;
+}
+
+@keyframes spin {
+    from { transform: translateY(-4rem) rotateZ(0deg);   }
+      to { transform: translateY(-4rem) rotateZ(360deg); }
+}

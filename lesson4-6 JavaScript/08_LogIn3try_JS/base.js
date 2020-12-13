@@ -1,4 +1,4 @@
-//lets try and use it all to do something
+ //lets try and use it all to do something
 
 // A bacis login function will do
 var passSave = "admin";
@@ -13,8 +13,7 @@ logInTest()
 logInTest()
 
 
-//lets make it all lower case
-passWord = passWord.toLowerCase();
+
 // test upper case without it
 
 //function to check the password
@@ -34,6 +33,9 @@ function checkPass(pass) {
 function logInTest() {
 
     var passWord = prompt("Enter password please");
+   //lets make it all lower case
+    passWord = passWord.toLowerCase();
+
     var messsage = "";
     if (checkPass(passWord)) {
         messsage = "you are in";

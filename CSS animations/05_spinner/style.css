@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    background: #eee;
+    height: 100vh;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+aside {
+  width: .4rem;
+  height: 3rem;
+  background: red;
+  border-radius: 99rem;
+  animation: spinner 1s linear infinite;
+}
+
+
+@keyframes spinner {
+    0% { transform: rotateZ(0deg);    background: red;    }
+   25% { transform: rotateZ(90deg);   background: green;  }
+   50% { transform: rotateZ(180deg);  background: blue;   }
+   75% { transform: rotateZ(270deg);  background: purple; }  
+  100% { transform: rotateZ(360deg);  background: red;    }
+}

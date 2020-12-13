@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    background: #eee;
+    height: 100vh;
+    margin: 0;
+}
+
+main {
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background: white;
+    box-shadow: 0 0 3rem rgba(0,0,0,.1);
+}
+
+main > aside {
+    width: 60px;
+    height: 60px;
+    background: red;
+    animation: run 4s linear infinite;
+}
+
+@keyframes run {
+    0% { transform: translate3d(0,0,0);           background: red;    }
+ 12.5% { transform: translate3d(440px,0,0);       background: red;    }
+   25% { transform: translate3d(440px,0,0);       background: green;  }
+ 37.5% { transform: translate3d(440px,440px,0);   background: green;  }
+   50% { transform: translate3d(440px,440px,0);   background: blue;   }
+ 62.5% { transform: translate3d(0,440px,0);       background: blue;   }
+   75% { transform: translate3d(0,440px,0);       background: yellow; }  
+ 87.5% { transform: translate3d(0,0,0);           background: yellow; }    
+  100% { transform: translate3d(0,0,0);           background: red;    }
+}

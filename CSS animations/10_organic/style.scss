@@ -1,0 +1,54 @@
+$radius: 600px;
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #222;
+    perspective: 600px;
+
+    main {
+        width: $radius;
+        height: $radius;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation: spin 30s linear infinite;
+        transform-style: preserve-3d;
+        
+        @keyframes spin {
+            from { transform: rotateX(0) rotateY(0); }
+              to { transform: rotateX(180deg) rotateY(360deg); }
+        }
+
+        > aside {
+            position: absolute;
+            border-radius: 999rem;
+            border: 3px dotted #999;
+            width: $radius;
+            height: $radius;
+
+            animation: swell 2s ease-in-out infinite;
+
+
+            @for $i from 1 through 20 {
+                &:nth-child(#{$i}) {
+                    width: $radius - ($i * 25px);
+                    height: $radius - ($i * 25px);
+                    animation-delay: ($i * 100ms);
+                }
+            }
+
+            @keyframes swell {
+                0%, 100% { transform: translate3d(0,0,0px); }
+                     50% { transform: translate3d(0,0,40px); }
+            }
+
+        }
+
+    }
+
+}
